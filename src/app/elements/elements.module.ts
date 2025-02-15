@@ -8,9 +8,8 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
 @NgModule({
   imports: [
     CommonModule,
-    ElementsRoutingModule,
-    ElementsHomeComponent
+    ElementsRoutingModule
   ], 
-  exports: [ ElementsHomeComponent ]
+  exports: []
 })
 export class ElementsModule { }
